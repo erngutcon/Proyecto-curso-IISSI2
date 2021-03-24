@@ -5,27 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/docs/images/favicon.ico">
-        <link rel="stylesheet" href="/docs/css/estilo.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="/docs/css/style.css">
+        <script src="/docs/js/utils/include.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <p class="cl1">Hola</p>
-    <p id="saludo">Hola2</p>
-
-    <div class="cl1">
-        <ul>
-        <li>
-           Naranjas 
-        </li>
-        <li>
-            Limones 
-         </li>
-         <li>
-            Manzanas 
-         </li>
-    </ul>
-    </div>
+    <div id= "page-header"> </div>
+    <h2 > Recent pictures </h2 >
+    <a href= "upload_picture.html"> Upload a new picture </a >   
+    <div class= " gallery-container ">
+    <div class= "photo-block">
+       <div class= "photo-header-block">
+                    <h2 class= "photo-title"> Samoyed </h2 >
+                    <h3 class= "photo-score"> Score: 4.52 </h3 >
+        </div >
+        <div class= "photo-image-block">
+                <img class= "photo-image" src= "https://www.dogsnsw.org.au/media/img/BrowseAllBreed/Samoyed-.jpg">
+        </div >
+        <div class= "photo-metadata-block">
+                    <p class= "photo-description">A very good boy. </p >            
+        </div >
+        <div class= "photo-edit-block">
+                    <button > Edit this photo </button >
+                    <button > Delete this photo </button >
+        </div >
+        </div >
     
-    <a href="registro.html">Registrarse</a>
+    <div class= "photo-block">
+    <div class= "photo-header-block">
+                    <h2 class= "photo-title"> Sevilla </h2 >
+                    <h3 class= "photo-score"> Score: 4.52 </h3 >
+    </div >
+    <div class= "photo-image-block">
+            <img class= "photo-image" src= "https://urbansevilla.es/wp-content/uploads/2019/03/urban-sevilla-foto-ciudad.jpg">
+    </div >
+    <div class= "photo-metadata-block">
+        <p class= "photo-description">A very good boy. </p >            
+    </div >
+        <div class= "photo-edit-block">
+                    <button > Edit this photo </button >
+                    <button > Delete this photo </button >
+    </div >
+    </div >
+        
+    <div class= "photo-block">
+    <div class= "photo-header-block">
+            <h2 class= "photo-title"> Tortilla </h2 >
+            <h3 class= "photo-score"> Score: 4.52 </h3 >
+    </div >
+    <div class= "photo-image-block">
+        <img class= "photo-image" src= "https://cdn1.cocina-familiar.com/recetas/thumb/tortilla-de-patata-con-cebolla.jpg">
+    </div >
+    <div class= "photo-metadata-block">
+        <p class= "photo-description">A very good boy. </p >            
+    </div >
+    <div class= "photo-edit-block">
+            <button > Edit this photo </button >
+            <button > Delete this photo </button >
+    </div >
+    </div >
+    </div >
+
+    <script >
+        include("header.html", "#page-header") ;
+    </script>
+        
 </body>
 </html>
